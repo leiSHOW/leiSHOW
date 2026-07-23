@@ -41,29 +41,9 @@
   <img width="100%" alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/leiSHOW/leiSHOW/output/github-contribution-grid-snake.svg" />
 </picture>
 
-**Yearly overview**
-
-<img width="100%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=leiSHOW" alt="Yearly contribution summary"/>
-
-**Last 31 days**
-
-<img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=leiSHOW&hide_border=true&area=true" alt="Contribution activity graph"/>
-
-**Daily rhythm**
-
-<p>
-  <img height="195" src="https://streak-stats.demolab.com/?user=leiSHOW&hide_border=true" alt="Contribution streak"/>
-  <img height="195" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=leiSHOW&utcOffset=8" alt="Commits by time of day"/>
+<p align="center">
+  <img height="180" src="https://streak-stats.demolab.com/?user=leiSHOW&hide_border=true" alt="Contribution streak"/>
 </p>
-
-
-**Languages**
-
-<p>
-  <img height="200" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=leiSHOW" alt="Repos per language"/>
-  <img height="200" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=leiSHOW" alt="Most used language by commits"/>
-</p>
-
 
 ## 🛠 Toolbox
 
