@@ -18,6 +18,11 @@
 ## 📕 Latest Blog Posts
 
 <!-- BLOG-POST-LIST:START -->
+- [QT之二进门](https://leishow.github.io/blog/2026/06/16/QT%E4%B9%8B%E4%BA%8C%E8%BF%9B%E9%97%A8/)
+- [docker使用及部署](https://leishow.github.io/blog/2026/06/16/docker%E4%BD%BF%E7%94%A8%E5%8F%8A%E9%83%A8%E7%BD%B2/)
+- [npm简单介绍](https://leishow.github.io/blog/2026/06/16/npm%E7%AE%80%E5%8D%95%E4%BB%8B%E7%BB%8D/)
+- [什么是频域](https://leishow.github.io/blog/2026/06/16/%E4%BB%80%E4%B9%88%E6%98%AF%E9%A2%91%E5%9F%9F/)
+- [Python学习](https://leishow.github.io/blog/2024/04/13/Python%E5%AD%A6%E4%B9%A0/)
 <!-- BLOG-POST-LIST:END -->
 
 ➡️ [更多文章 → leishow.github.io/blog](https://leishow.github.io/blog/)
