@@ -15,14 +15,12 @@
 - 🧱 End-to-end mindset — from protocol design to system bring-up & debugging
 - 🎓 Master's student in Computer Technology @ Chengdu University of Technology
 
-## 📝 Blog
+## 📕 Latest Blog Posts
 
-<p align="center">
-  <a href="https://leishow.github.io/blog/">
-    <img src="https://skyme-1307417630.cos.ap-chengdu.myqcloud.com/lydl/bitbug_favicon.ico" alt="LEI_Blog"/>
-  </a>
-</p>
+<!-- BLOG-POST-LIST:START -->
+<!-- BLOG-POST-LIST:END -->
 
+➡️ [更多文章 → leishow.github.io/blog](https://leishow.github.io/blog/)
 
 ## 📌 Featured Repositories
 

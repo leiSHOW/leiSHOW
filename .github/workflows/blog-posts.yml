@@ -1,0 +1,21 @@
+name: latest blog posts
+
+on:
+  # run every hour at minute 17
+  schedule:
+    - cron: "17 * * * *"
+
+  # allows to manually run the job at any time
+  workflow_dispatch:
+
+jobs:
+  update-readme-with-blog:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: gautamkrishnar/blog-post-workflow@v1
+        with:
+          feed_list: "https://leishow.github.io/blog/atom.xml"
+          max_post_count: 5
