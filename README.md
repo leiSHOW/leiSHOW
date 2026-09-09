@@ -31,9 +31,9 @@
   <tr>
     <td>
       <picture>
-        <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-livid-eight.vercel.app/api?username=leiSHOW&theme=transparent&include_all_commits=true&show_icons=true&hide_border=true&hide_title=true&text_size=16&text_color=c9d1d9&icon_color=c9d1d9&hide=contribs">
-        <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats-livid-eight.vercel.app/api?username=leiSHOW&theme=transparent&include_all_commits=true&show_icons=true&hide_border=true&hide_title=true&text_size=16&text_color=333333&icon_color=333333&hide=contribs">
-        <img width="450" src="https://github-readme-stats-livid-eight.vercel.app/api?username=leiSHOW&theme=transparent&include_all_commits=true&show_icons=true&hide_border=true&hide_title=true&text_size=16&hide=contribs" alt="GitHub Stats">
+        <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/leiSHOW/leiSHOW/output-stats/github-stats-dark.svg" />
+        <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/leiSHOW/leiSHOW/output-stats/github-stats-light.svg" />
+        <img width="450" src="https://raw.githubusercontent.com/leiSHOW/leiSHOW/output-stats/github-stats-light.svg" alt="GitHub Stats" />
       </picture>
     </td>
   </tr>

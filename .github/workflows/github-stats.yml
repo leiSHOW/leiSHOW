@@ -1,0 +1,53 @@
+name: generate github stats
+
+on:
+  # run automatically every day (02:00 Beijing time)
+  schedule:
+    - cron: "0 18 * * *"
+
+  # allows to manually run the job at any time
+  workflow_dispatch:
+
+  # run on every push on the main branch
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - uses: actions/checkout@v4
+
+      # generates a light stats card and stores it in dist/
+      - name: generate light stats card
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: stats
+          options: username=${{ github.repository_owner }}&theme=transparent&include_all_commits=true&show_icons=true&hide_border=true&hide_title=true&text_size=16&text_color=333333&icon_color=333333&hide=contribs
+          path: dist/github-stats-light.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      # generates a dark stats card and stores it in dist/
+      - name: generate dark stats card
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: stats
+          options: username=${{ github.repository_owner }}&theme=transparent&include_all_commits=true&show_icons=true&hide_border=true&hide_title=true&text_size=16&text_color=c9d1d9&icon_color=c9d1d9&hide=contribs
+          path: dist/github-stats-dark.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      # push the generated files to the output-stats branch
+      # (kept separate from the snake's output branch and the graph's output-graph branch)
+      - name: push stats card to the output-stats branch
+        uses: crazy-max/ghaction-github-pages@v3.1.0
+        with:
+          target_branch: output-stats
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
