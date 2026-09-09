@@ -42,11 +42,12 @@ jobs:
           output_path: dist/github-activity-graph-dark.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
-      # push the generated files to the output branch
-      - name: push activity graph to the output branch
+      # push the generated files to the output-graph branch
+      # (kept separate from the snake's output branch to avoid clobbering)
+      - name: push activity graph to the output-graph branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
-          target_branch: output
+          target_branch: output-graph
           build_dir: dist
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

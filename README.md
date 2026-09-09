@@ -41,9 +41,9 @@
 
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/leiSHOW/leiSHOW/output/github-activity-graph-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/leiSHOW/leiSHOW/output/github-activity-graph-light.svg" />
-    <img width="800" src="https://raw.githubusercontent.com/leiSHOW/leiSHOW/output/github-activity-graph-light.svg" alt="Activity Graph" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/leiSHOW/leiSHOW/output-graph/github-activity-graph-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/leiSHOW/leiSHOW/output-graph/github-activity-graph-light.svg" />
+    <img width="800" src="https://raw.githubusercontent.com/leiSHOW/leiSHOW/output-graph/github-activity-graph-light.svg" alt="Activity Graph" />
   </picture>
 </div>
 
